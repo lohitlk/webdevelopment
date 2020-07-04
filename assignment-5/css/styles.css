@@ -4,6 +4,10 @@ body {
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
+.assignment{
+  text-align: center;
+  text-decoration: none;
+}
 
 /** HEADER **/
 #header-nav {
