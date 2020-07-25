@@ -7,7 +7,14 @@ body{
 .parent{
 	place-item: center;
 	padding-left: 20%;
-	padding-right: 0%;
+}
+
+.nopadding{
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	place-item: justify center;
+	left:-60px;
 }
 h1{
     text-align: center;
@@ -18,11 +25,7 @@ header{
 hr{
 	color: #201E1E;
 }
-/*.nopadding{
-	padding: 0 !important;
-	margin: 0 !important;
-}
-*/
+
 tr{
 	padding: 5px;
 	
@@ -87,23 +90,34 @@ input,textarea {
     text-align: center;
 	text-transform: capitalize;
 }
-@media (min-width: 1200px)
-{
-	.container {
-    	width: 750;
-	}
-}
+
 .butrow{
 	margin-left: 50%;
 	padding-left: 60%;
 	padding-right: 0%;
 }
 
-/*@media(min-width: 320px){
-	.parent{
-		display: grid;
-		place-item: center;
-		
+/*for mobile*/
+@media (max-width: 480px)
+{
+	.nopadding{
+    	left: -65px;
+		padding: 0px;
+		margin: 0px;
+		min-width: 10px;
+	}
+	.para{
+		padding:0px 20px 0px 15px;
+		margin: 10px;
+	}
+}
+
+/*for large screen*/
+@media(min-width: 1025px){
+	.nopadding{
+		left: -120px;
+		padding: 0px;
+		margin: 0px;
 	}
 	
-}*/
+}
