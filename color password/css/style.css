@@ -101,7 +101,7 @@ input,textarea {
 @media (max-width: 480px)
 {
 	.nopadding{
-    	left: -65px;
+    	left: -70px;
 		padding: 0px;
 		margin: 0px;
 		min-width: 10px;
