@@ -1,7 +1,13 @@
 *{
     box-sizing: border-box;
-}body{
+}
+body{
     background-color: fuchsia;
+}
+.parent{
+	place-item: center;
+	padding-left: 20%;
+	padding-right: 0%;
 }
 h1{
     text-align: center;
@@ -11,6 +17,15 @@ header{
 }
 hr{
 	color: #201E1E;
+}
+/*.nopadding{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+*/
+tr{
+	padding: 5px;
+	
 }
 
 .button {
@@ -78,9 +93,17 @@ input,textarea {
     	width: 750;
 	}
 }
-@media (min-width: 992px)
-{
-	.container {
-    	width: 750px;
-	}
+.butrow{
+	margin-left: 50%;
+	padding-left: 60%;
+	padding-right: 0%;
 }
+
+/*@media(min-width: 320px){
+	.parent{
+		display: grid;
+		place-item: center;
+		
+	}
+	
+}*/
